@@ -1,0 +1,26 @@
+{
+  "name": "cisaruapos",
+  "version": "1.0.0",
+  "description": "CisaruaPOS - Point of Sale untuk Kantin & Koperasi Sekolah SMKN 1 Cisarua",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "pos",
+    "kantin",
+    "sekolah",
+    "koperasi"
+  ],
+  "author": "CisaruaPOS",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "nanoid": "^6.0.1"
+  }
+}
